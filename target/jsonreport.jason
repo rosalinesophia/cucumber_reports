@@ -1,0 +1,124 @@
+[
+  {
+    "line": 20,
+    "elements": [
+      {
+        "line": 24,
+        "name": "Validate sign on of Newtours.com",
+        "description": "",
+        "id": "test-login-functionality;validate-sign-on-of-newtours.com",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 34028150800,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "user opens login portal",
+            "match": {
+              "location": "StepDefinition.given()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 703874200,
+              "status": "passed"
+            },
+            "line": 26,
+            "name": "user enters username as \"mercury\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"mercury\"",
+                  "offset": 24
+                }
+              ],
+              "location": "StepDefinition.when(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 91822700,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "user enters password as \"mercury\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"mercury\"",
+                  "offset": 24
+                }
+              ],
+              "location": "StepDefinition.and(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5778869400,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "clicks on sign on button",
+            "match": {
+              "location": "StepDefinition.and1()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 253400,
+              "status": "passed"
+            },
+            "line": 29,
+            "name": "validate success login",
+            "match": {
+              "location": "StepDefinition.then()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 793915800,
+              "status": "passed"
+            },
+            "line": 30,
+            "name": "quit the application",
+            "match": {
+              "location": "StepDefinition.and2()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tag"
+          },
+          {
+            "name": "@tag1"
+          }
+        ]
+      }
+    ],
+    "name": "Test Login functionality",
+    "description": "",
+    "id": "test-login-functionality",
+    "keyword": "Feature",
+    "uri": "src/test/resources/Feature/feature1.feature",
+    "tags": [
+      {
+        "name": "@tag",
+        "type": "Tag",
+        "location": {
+          "line": 19,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
